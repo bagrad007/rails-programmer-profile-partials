@@ -1,5 +1,6 @@
 class ProgrammersController < ApplicationController
   def index
+    binding.pry
     @programmers = Programmer.all
   end
 
